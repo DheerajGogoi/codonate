@@ -1,0 +1,150 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* NAVBAR START */
+button:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+
+.navbar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.103);
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.fa-sun{
+    color: orange;
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.3rem;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: black;
+}
+.navbar .navbar-toggler{
+    border: none;
+}
+/* NAVBAR END */
+
+/* HOME START */
+.home-container{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.home-content-container{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.slie-blog{
+    margin-bottom: 3%;
+    padding: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+}
+.lead{
+    color: rgb(51, 51, 51);
+}
+/* HOME END */
+
+/* DONATE SECTION START */
+#donate-section{
+    background: rgb(243, 243, 243);
+}
+.donate-container{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.donate{
+    margin-bottom: 3rem;
+}
+.donate-now{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+/* DONATE SECTION END */
+
+
+/* WHY SECTION START */
+.why{
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 5%;
+}
+.why-reason{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.why-reason .card{
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+}
+.reason-text{
+    margin-top: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.fa-heart, .fa-hands-helping, .fa-briefcase-medical{
+    font-size: 4rem;
+    color: rgb(197, 87, 87);
+}
+/* WHY SECTION END */
+
+/* BOTTOM BAR START */
+#bottom-bar{
+    background: rgb(243, 243, 243);
+}
+.bottom-bar-container{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.bottom{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+.brand-name{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.author-name{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.copyright{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.media-icons{
+    font-size: 2rem;
+    color: black;
+    margin-right: 1.2rem;
+}
+.media-icons:hover{
+    color: rgb(197, 87, 87);;
+}
+/* BOTTOM BAR END */
+
+/* CONTACT FORM START */
+.modal-body::-webkit-scrollbar{
+    background: none;
+    width: 5px;
+}
+.modal-body::-webkit-scrollbar-thumb{
+    background: black;
+}
+#button{
+    border: none;
+    outline: none;
+}
+/* CONTACT FORM END */
